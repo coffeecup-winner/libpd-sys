@@ -28,3 +28,6 @@
 #include "libpd/libpd_wrapper/z_hooks.h"
 #include "libpd/libpd_wrapper/x_libpdreceive.h"
 #include "libpd/libpd_wrapper/z_libpd.h"
+
+// To be able to have pd report GUI events via a socket
+extern int sys_guisetportnumber;
