@@ -31,3 +31,11 @@
 
 // To be able to have pd report GUI events via a socket
 extern int sys_guisetportnumber;
+
+// Private g_text.c struct that we want just the flavor from:
+typedef struct _gatom
+{
+    t_text a_text;
+    int a_flavor;           /* A_FLOAT, A_SYMBOL, or A_LIST */
+    // ... don't care
+} t_gatom;
