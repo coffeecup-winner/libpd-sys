@@ -3,7 +3,7 @@
 #include "libpd/pure-data/src/m_pd.h"
 
 // #include "libpd/pure-data/src/d_soundfile.h"
-// #include "libpd/pure-data/src/g_all_guis.h"
+#include "libpd/pure-data/src/g_all_guis.h"
 #include "libpd/pure-data/src/g_canvas.h"
 // #include "libpd/pure-data/src/g_undo.h"
 #include "libpd/pure-data/src/m_imp.h"
