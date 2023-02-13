@@ -288,6 +288,7 @@ fn main() {
     let mut bindings_builder = bindgen::Builder::default()
         .header("wrapper.h")
         .rustfmt_bindings(true)
+        .impl_debug(true)
         .clang_arg(format!("-I{}", pd_source.to_str().unwrap()))
         .clang_arg(format!("-I{}", libpd_wrapper_dir.to_str().unwrap()))
         .clang_arg(format!("-I{}", libpd_wrapper_util_dir.to_str().unwrap()))
